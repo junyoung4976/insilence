@@ -25,6 +25,7 @@ img{vertical-align: middle;}
 
 /* main image */
 #main_image{width: 1920px; height: 1200px; position: relative;}
+#main_image img{width: 100%; height: auto;}
 #main_image .text_box{position: absolute; top: 200px; left: 240px; height: 240px;}
 #main_image .text_box p a{font-size: 96px; font-weight: 400; color: #fff; text-shadow: 3px 3px 3px hsla(0, 0%, 0%, 0.5);}
 #main_image .text_box strong a{font-size: 96px; font-weight: 500; color: #fff; text-shadow: 3px 3px 3px rgb(0, 0, 0,0.5);}
@@ -98,5 +99,5 @@ img{vertical-align: middle;}
 #footer .footer_inner .foot_bt p span{display: inline-block; margin: 10px 0 0 25px; line-height: 1.5; color: #8d8d8d; letter-spacing: -1%;}
 
 /* QA */
-.QA{position: fixed; bottom: 50px; right: 45px;}
+.QA{position: fixed; bottom: 50px; right: 45px; z-index: 10;}
 .QA .QA_bt{display: block; content: ""; width: 150px; height: 150px; background: url(../imgs/button_QA.png) no-repeat; cursor: pointer;}
