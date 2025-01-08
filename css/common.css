@@ -52,6 +52,8 @@ img{vertical-align: middle;}
 .section2 .section2_wrap .best_item .item2{float: right; margin-bottom: 30px;}
 .section2 .section2_wrap .best_item .item3{float: left; margin-left: 30px;}
 .section2 .section2_wrap .best_item .item4{float: right;}
+.section2 .section2_wrap .best_item img{transition: all 0.2s ease;}
+.section2 .section2_wrap .best_item img:hover{transform: scale(1.05);}
 
 /* section3 */
 .section3{width: 1440px; margin: 0 auto; padding: 150px 0;}
@@ -78,6 +80,8 @@ img{vertical-align: middle;}
 .section4 .new_cont .new1{float: left;}
 .section4 .new_cont .new2{float: left; margin-left: 30px;}
 .section4 .new_cont .new3{float: left; margin-left: 30px;}
+.section4 .new_cont img{transition: all 0.2s ease;}
+.section4 .new_cont img:hover{transform: scale(1.05);}
 .section4 .new_cont strong{display: block; margin-top: 10px; font-size: 24px; font-weight: 500;}
 .section4 .new_cont span{display: block; margin-top: 5px; font-size: 12px; font-weight: 400;}
 
